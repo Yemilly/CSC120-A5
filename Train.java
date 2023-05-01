@@ -76,7 +76,7 @@ public void printManifest(){
 public static void main(String[] args) {
     Train myTrain= new Train(FuelType.STEAM, 100, 10, 50);
     Passenger p4Passenger= new Passenger("Soto");
-    p3Passenger.boardCar(myTrain.getCar(5));
+    p4Passenger.boardCar(myTrain.getCar(5));
     myTrain.getCar(5);
     myTrain.getEngine();
     System.out.println(myTrain.getMaxCapacity());

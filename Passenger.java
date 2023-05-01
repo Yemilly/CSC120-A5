@@ -41,9 +41,10 @@ public class Passenger {
 
     public static void main(String[] args) {
         Passenger p2Passenger= new Passenger("person");
-        Passenger p3Passenger= new Passenger("student")
+        Passenger p3Passenger= new Passenger("student");
         Car c = new Car(10);
         p2Passenger.boardCar(c);
+        p3Passenger.boardCar(c);
         System.out.println(p2Passenger.getName());
         c.printManifest();
         p2Passenger.getOffCar(c);
